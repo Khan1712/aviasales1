@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c236da20-e606-47ac-affe-ab9fca9b0038" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/PycharmProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bookshop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CookingBlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/.idea/Myproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/myproject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/myproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/myproject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/myproject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/order/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/myproject/payment/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Myproject/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/ShopClothes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/activation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/forgot_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/forgot_password_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/templates/account/successful_registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/media/products/smartfon-apple-iphone-13-mini-128-gb-ram-gb-productred-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/media/products/smartfon-apple-iphone-13-pro-1024-gb-ram-gb-graphite-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/media/products/smartfon-apple-iphone-13-pro-max-1024-gb-ram-gb-sierra-blue-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/templates/order/cart_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/order/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/payment/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/create_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/delete_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/product_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/products_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/templates/product/update_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/product/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/shopclothes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/shopclothes/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/shopclothes/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/shopclothes/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShopClothes/shopclothes/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpaceP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TechnicsShop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/.idea/Tetris.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/font/font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tetris/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aviasales.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aviasales/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aviasales/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aviasales/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aviasales/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aviasales/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangogirls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini-project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/templates/account/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/media/products/2.1-1000x1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/order/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/cart_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/cart/cart_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/add_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/create_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/delete_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/templates/product/update_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/product/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/shop/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/shop/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/shop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/shop/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/static/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/static/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/shop_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/account/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/migrations/0002_productimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/Costume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/bag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/for_women.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/for_women_SJXW7Bs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/kos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/rub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/tols.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/малыш.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/media/products/плед.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/order/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/shop/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/shop/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/shop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop_api/shop/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial/.idea/tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial/quickstart/serializers.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23gNEpX4QwYODSoahiKCbyAsH4D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+      <recent name="$PROJECT_DIR$/account" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c236da20-e606-47ac-affe-ab9fca9b0038" name="Changes" comment="" />
+      <created>1642151663496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642151663496</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
