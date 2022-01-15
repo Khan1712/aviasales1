@@ -127,6 +127,8 @@
       <change afterPath="$PROJECT_DIR$/../Tetris/img/bg2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tetris/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tetris/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../djangogirls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mini-project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
@@ -241,11 +243,22 @@
       <change afterPath="$PROJECT_DIR$/../shop_api/shop/wsgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorial/.idea/tutorial.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorial/quickstart/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aviasales/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aviasales/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -254,7 +267,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23gNEpX4QwYODSoahiKCbyAsH4D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

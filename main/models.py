@@ -38,6 +38,7 @@ class Ticket(models.Model):
     destination = models.ForeignKey(Country, on_delete=models.CASCADE, related_name="arrivals")
     departure_time = models.DateTimeField(auto_now=False)
     arrival_time = models.DateTimeField(auto_now=False)
+    ticket_price = models.IntegerField(default=20, blank=True)
     airplane = models.ForeignKey(Airplane, on_delete=models.CASCADE)
     person = models.ForeignKey(Person, on_delete=models.CASCADE)
     image = models.FileField(upload_to='images/')
