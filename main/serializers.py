@@ -35,6 +35,10 @@ class TicketSerializer(serializers.ModelSerializer):
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)
+        representation['person'] = PersonSerializer(instance.person).data
+        representation['origin'] = CountrySerializer(instance.origin).data
+        representation['destination'] = CountrySerializer(instance.destination).data
+        representation['airplane'] = AirplaneSerializer(instance.airplane).data
         representation['image'] = self._get_image_url(instance)
         return representation
 

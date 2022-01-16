@@ -17,8 +17,19 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+
+from main.views import AirplaneListView, CountryListView, PersonListView, TicketViewSet
+
+router = DefaultRouter()
+router.register('ticket', TicketViewSet)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('v1/api/', include('main.urls')),
+    path('v1/api/', include(router.urls)),
+    path('v1/api/account/', include('account.urls')),
+    path('v1/api/airplane/', AirplaneListView.as_view()),
+    path('v1/api/country/', CountryListView.as_view()),
+    path('v1/api/person/', PersonListView.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

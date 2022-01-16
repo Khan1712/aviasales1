@@ -1,6 +1,7 @@
 from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+from django.utils.crypto import get_random_string
 
 
 class UserManager(BaseUserManager):
@@ -38,3 +39,7 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.email
+
+    def create_activation_code(self):
+        code = get_random_string(6, allowed_chars='123456789')
+        self.activation_code = code

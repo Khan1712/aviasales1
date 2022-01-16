@@ -1,4 +1,7 @@
+from django.contrib.auth import get_user_model
 from django.db import models
+
+from account.models import User
 
 
 class Airplane(models.Model):
@@ -34,6 +37,7 @@ class Person(models.Model):
 
 
 class Ticket(models.Model):
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
     origin = models.ForeignKey(Country, on_delete=models.CASCADE, related_name="departures")
     destination = models.ForeignKey(Country, on_delete=models.CASCADE, related_name="arrivals")
     departure_time = models.DateTimeField(auto_now=False)
