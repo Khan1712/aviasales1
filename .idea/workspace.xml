@@ -128,6 +128,7 @@
       <change afterPath="$PROJECT_DIR$/../Tetris/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tetris/requirement.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env_example.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../djangogirls" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mini-project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
@@ -242,6 +243,7 @@
       <change afterPath="$PROJECT_DIR$/../shop_api/shop/wsgi.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorial/.idea/tutorial.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorial/quickstart/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aviasales/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aviasales/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
