@@ -7,6 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from account.models import User
 from account.serializers import RegisterSerializer, LoginSerializer
 
 
@@ -41,3 +42,6 @@ class LogoutView(APIView):
         Token.objects.filter(user=user).delete()
         user.auth_token.delete()
         return Response('Successfully logged out', status=status.HTTP_200_OK)
+
+
+

@@ -6,10 +6,12 @@ from rest_framework.decorators import api_view, action
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.viewsets import ModelViewSet
 
-from main.models import Airplane, Person, Ticket, Country
+from main.models import Airplane, Person, Ticket, Country, Comment, Likes, Rating, Favorite
 from main.permissions import IsAuthor
-from main.serializers import AirplaneSerializer, PersonSerializer, TicketSerializer, CountrySerializer
+from main.serializers import AirplaneSerializer, PersonSerializer, TicketSerializer, CountrySerializer, \
+    CommentSerializer, LikesSerializer, RatingSerializer, FavoriteSerializer
 
 
 # @api_view(['GET'])
@@ -80,13 +82,6 @@ class TicketViewSet(viewsets.ModelViewSet):
     serializer_class = TicketSerializer
     permission_classes = [IsAuthenticated]
 
-    # def get_permissions(self):
-    #     if self.action in ['create', 'update', 'partial_update', 'destroy']:
-    #         permissions = [IsAuthor]
-    #     else:
-    #         permissions = [IsAuthenticated]
-    #     return [permission() for permission in permissions]
-
     def get_permissions(self):
         if self.action in ['list', 'retrieve']:
             return []
@@ -112,5 +107,44 @@ class TicketViewSet(viewsets.ModelViewSet):
         serializer = TicketSerializer(queryset, many=True, context={'request': request})
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+    @action(detail=False, methods=['get'])
+    def favorites(self, request):
+        queryset = Favorite.objects.all()
+        queryset = queryset.filter(user=request.user)
+        serializer = FavoriteSerializer(queryset, many=True, context={'request': request})
+        return Response(serializer.data, status=status.HTTP_200_OK)
+
+    @action(detail=True, methods=['get'], permission_classes=[IsAuthenticated])
+    def favorite(self, request, pk=None):
+        ticket = self.get_object()
+        obj, created = Favorite.objects.get_or_create(user=request.user, ticket=ticket)
+        if not created:
+            obj.favorite = not obj.favorite
+            obj.save()
+        favorites = 'added to favorites' if obj.favorite else 'removed from favorites'
+
+        return Response(f'Successfully {favorites}', status=status.HTTP_200_OK)
+
     def get_serializer_context(self):
-        return {'request': self.request}
+        return {'request': self.request, 'action': self.action}
+
+    # def get_serializer_context(self):
+    #     return {'request': self.request}
+
+
+class CommentViewSet(ModelViewSet):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
+    permission_classes = [IsAuthenticated]
+
+
+class LikesViewSet(ModelViewSet):
+    queryset = Likes.objects.all()
+    serializer_class = LikesSerializer
+    permission_classes = [IsAuthenticated]
+
+
+class RatingViewSet(ModelViewSet):
+    queryset = Rating.objects.all()
+    serializer_class = RatingSerializer
+    permission_classes = [IsAuthenticated]

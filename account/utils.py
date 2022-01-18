@@ -1,5 +1,7 @@
 from django.core.mail import send_mail
 
+from account.models import User
+
 
 def send_activation_email(email, activation_code):
     activation_url = f'http://localhost:8000/v1/api/account/activate/{activation_code}'
@@ -15,3 +17,5 @@ def send_activation_email(email, activation_code):
         [email, ],
         fail_silently=False
     )
+
+

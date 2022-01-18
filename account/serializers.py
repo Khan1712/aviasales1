@@ -1,4 +1,5 @@
 from django.contrib.auth import authenticate
+from django.core.mail import send_mail
 from rest_framework import serializers
 
 from account.models import User
@@ -51,3 +52,6 @@ class LoginSerializer(serializers.Serializer):
 
         attrs['user'] = user
         return attrs
+
+
+
