@@ -78,5 +78,5 @@ class Rating(models.Model):
 
 class Favorite(models.Model):
     ticket = models.ForeignKey(Ticket, on_delete=models.CASCADE, related_name='favorite')
-    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='favorite')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='favorite')
     favorite = models.BooleanField(default=True)

@@ -8,7 +8,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from account.models import User
-from account.serializers import RegisterSerializer, LoginSerializer
+from account.serializers import RegisterSerializer, LoginSerializer, \
+    ForgotPasswordSerializer, ForgotPasswordCompleteSerializer
 
 
 class RegisterView(APIView):
@@ -42,6 +43,25 @@ class LogoutView(APIView):
         Token.objects.filter(user=user).delete()
         user.auth_token.delete()
         return Response('Successfully logged out', status=status.HTTP_200_OK)
+
+
+class ForgotPasswordView(APIView):
+    def post(self, request):
+        data = request.data
+        serializer = ForgotPasswordSerializer(data=data)
+        serializer.is_valid(raise_exception=True)
+        serializer.send_code()
+        return Response('We have sent an sms with a six-digit code to your email', status=status.HTTP_200_OK)
+
+
+class ForgotPasswordCompleteView(APIView):
+    def post(self, request):
+        data = request.data
+        serializer = ForgotPasswordCompleteSerializer(data=data)
+        serializer.is_valid(raise_exception=True)
+        serializer.set_new_password()
+        return Response("You've successfully restore an account.", status=status.HTTP_200_OK)
+
 
 
 

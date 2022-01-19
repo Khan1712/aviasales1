@@ -1,5 +1,8 @@
+from datetime import timedelta
+
 from django.db.models import Q
 from django.shortcuts import render
+from django.utils import timezone
 from django.views import generic
 from rest_framework import generics, viewsets, status
 from rest_framework.decorators import api_view, action
@@ -8,10 +11,9 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
-from main.models import Airplane, Person, Ticket, Country, Comment, Likes, Rating, Favorite
+from main.models import *
 from main.permissions import IsAuthor
-from main.serializers import AirplaneSerializer, PersonSerializer, TicketSerializer, CountrySerializer, \
-    CommentSerializer, LikesSerializer, RatingSerializer, FavoriteSerializer
+from main.serializers import *
 
 
 # @api_view(['GET'])
@@ -110,19 +112,18 @@ class TicketViewSet(viewsets.ModelViewSet):
     @action(detail=False, methods=['get'])
     def favorites(self, request):
         queryset = Favorite.objects.all()
-        queryset = queryset.filter(user=request.user)
+        queryset = queryset.filter(author=request.user)
         serializer = FavoriteSerializer(queryset, many=True, context={'request': request})
         return Response(serializer.data, status=status.HTTP_200_OK)
 
-    @action(detail=True, methods=['get'], permission_classes=[IsAuthenticated])
+    @action(detail=True, methods=['post'])
     def favorite(self, request, pk=None):
         ticket = self.get_object()
-        obj, created = Favorite.objects.get_or_create(user=request.user, ticket=ticket)
+        obj, created = Favorite.objects.get_or_create(author=request.user, ticket=ticket)
         if not created:
             obj.favorite = not obj.favorite
             obj.save()
-        favorites = 'added to favorites' if obj.favorite else 'removed from favorites'
-
+        favorites = 'added to favorites' if obj.favorite else 'removed to favorites'
         return Response(f'Successfully {favorites}', status=status.HTTP_200_OK)
 
     def get_serializer_context(self):

@@ -1,7 +1,7 @@
 from django.db.models import Avg
 from rest_framework import serializers
 
-from main.models import Airplane, Person, Ticket, Country, Comment, Likes, Rating, Favorite
+from main.models import *
 
 
 class AirplaneSerializer(serializers.ModelSerializer):
@@ -102,13 +102,14 @@ class RatingSerializer(serializers.ModelSerializer):
 
 
 class FavoriteSerializer(serializers.ModelSerializer):
+    author = serializers.ReadOnlyField(source='author.email')
 
     class Meta:
         model = Favorite
         fields = '__all__'
-
-    def to_representation(self, instance):
-        representation = super().to_representation(instance)
-        representation['user'] = instance.user.email
-        representation['ticket'] = instance.ticket.name
-        return representation
+    #
+    # def to_representation(self, instance):
+    #     representation = super().to_representation(instance)
+    #     representation['author'] = instance.author.email
+    #     representation['ticket'] = TicketSerializer(instance.ticket).data
+    #     return representation

@@ -44,3 +44,7 @@ class User(AbstractUser):
     def create_activation_code(self):
         code = get_random_string(6, allowed_chars='123456789')
         self.activation_code = code
+        self.save()
+
+
+
